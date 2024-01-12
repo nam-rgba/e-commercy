@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      border_color: '#bce3c9',
+      black_text: '#3d3d3d',
+      gray_text:'#9e9e9e',
+      
+    }
+
   },
   plugins: [],
 }
