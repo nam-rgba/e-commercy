@@ -14,16 +14,20 @@ export default function Header() {
 
             </div>
         </div>
-        <div className='flex flex-row text-sm h-full items-center w-fit m-1'>
+        <div className='flex flex-row text-xs h-fit items-center w-fit m-1 cursor-pointer border-solid border border-border_gray rounded p-1 shadow-st'>
             <div className='text-gray_text p-1'>
                 <CiLocationOn />
             </div>
-            <div className='text-border_color '>
+            <div className='text-green_text '>
                 Your location
             </div>
             <div className='text-gray_text p-1'>
                 <FaAngleDown/>
             </div>
+        </div>
+
+        <div>
+            
         </div>
     </div>
   )
